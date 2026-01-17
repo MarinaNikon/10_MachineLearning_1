@@ -23,7 +23,7 @@
     ##Note: Answer following questions using entire data and do not create test data.
 
 # Load the data
-campaign<-read.csv(file.choose(), header = TRUE) # Import data
+campaign<-read.csv("Email_Campaign.csv", header = TRUE) # Import data
 head(campaign) # View first 6 rows
 dim(campaign) # Check the dimension of the dataset
 summary(campaign) #Summarizing data and checking for missing values
